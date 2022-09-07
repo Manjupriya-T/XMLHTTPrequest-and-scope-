@@ -1,0 +1,16 @@
+1.How to compare two JSON have the same properties
+
+const object1 = {
+    name: 'person',
+    age: '5'
+};
+
+const object2 = {
+    age: '5',
+    name: 'person'
+};
+
+console.log(JSON.stringify(object1) === JSON.stringify(object2))
+
+
+console.log(object1, object2);
